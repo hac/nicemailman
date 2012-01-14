@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="robots" content="all" />
+		
+		<title><MM-List-Name> Listserv Info</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="company/styles.css"  />
+		<link rel="stylesheet" type="text/css" media="print" href="company/print.css"  />
+		<link rel="stylesheet" type="text/css" media="handheld" href="company/handheld.css"  />
+		<link rel="stylesheet" type="text/css" media="screen" href="company/css/styles/orange.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="company/css/sidebar/sidebar_right.css" />
+		
+		<script type="text/javascript" src="company/javascript.js"></script>
+	</head>
+<body>
+<div id="topBar"></div><!-- bar that runs along the browser window -->
+<div id="viewingButton"><!-- rounded buttong displaying which page you are viewing -->
+	<div id="left"></div>
+	<div id="text"><MM-List-Name> Listserv Info</div>
+	<div id="right"></div>
+</div><!-- end viewing button -->
+
+<div id="container"><!-- Start container -->
+	<div id="contentContainer"><!-- Start main content wrapper -->
+		<div id="content"><!-- Start content -->
+			
+			<div class="blog-entry">
+				<h1 class="blog-entry-title">Subscribe</h1>
+				<MM-Subscribe-Form-Start>
+				Email address: <MM-Subscribe-Box><br />
+				Your name (optional): <mm-fullname-box><br />
+		   		<mm-digest-question-start>
+				Receive email: <MM-Undigest-Radio-Button>per email <MM-Digest-Radio-Button>per day <br />
+		     	<mm-digest-question-end><br />
+				<MM-Subscribe-Button>
+				<MM-Form-End>
+			</div>
+
+			<div class="blog-entry">
+				<h1 class="blog-entry-title">Change Settings</h1>
+				<MM-Options-Form-Start>
+				<MM-Editing-Options>
+				<MM-Form-End>
+			</div>
+			
+		</div><!-- End content -->
+		<div class="clearer"></div>
+		<div id="footer"><!-- Start Footer -->
+			<p>2012</p>
+			<div id="breadcrumbcontainer"><!-- Start the breadcrumb wrapper -->
+				
+			</div><!-- End breadcrumb -->
+		</div><!-- End Footer -->
+	</div><!-- End main content wrapper -->
+
+	<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
+		<div id="pageHeader"><!-- Start page header -->
+			<div id="highlight"></div>
+			
+			<h1><MM-List-Name></h1>
+			<h2><MM-List-Description></h2>
+		</div><!-- End page header -->
+		<div id="navcontainer"><!-- Start Navigation -->
+			<ul>
+				<li><a href="#subscribe" rel="self" id="current">Subscribe</a></li>
+				<li><a href="#settings" rel="self">Change Settings</a></li>
+				<li><MM-Archive>List Archives</MM-Archive></li>
+			</ul>
+		</div><!-- End navigation -->
+		<div id="sidebar"><!-- Start sidebar content -->
+			<h1 class="sideHeader"></h1><!-- Sidebar header -->
+			 <br /><!-- sidebar content you enter in the page inspector -->
+			 <!-- sidebar content such as the blog archive links -->
+		</div><!-- End sidebar content -->
+	</div><!-- End sidebar wrapper -->
+</div><!-- End container -->
+</body>
+</html>

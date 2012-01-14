@@ -1,0 +1,24 @@
+#sidebarContainer {
+	display: none;
+}
+
+body {
+	background: #e5e7da repeat-y url(../../images/sidebar_hide_bg.png);
+}
+
+#contentContainer {
+	margin-right: 00px;
+	margin-left: 0px;
+	width: 660px;
+	left: 10px;
+}
+
+#contentContainer #content {
+	padding: 30px 20px 10px 10px;
+}
+
+#viewingButton {
+	position: absolute;
+	text-align: center;
+	left: 15px;
+}

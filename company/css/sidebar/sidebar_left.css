@@ -1,0 +1,40 @@
+body {
+	background: #e5e7da repeat-y url(../../images/sidebar_left_bg.png);
+}
+#sidebarContainer {
+	position: absolute;
+	left: 0px;
+	right: auto;
+	padding-left: 8px;
+	padding-right: 0;
+}
+
+#contentContainer {
+	position: absolute;
+	left: 206px;
+}
+
+#viewingButton {
+	position: absolute;
+	text-align: center;
+	left: 508px;
+}
+
+#navcontainer a:hover, #navcontainer #current {
+	background: no-repeat url(../../images/button_over_right.png);
+	margin-left: 0px;
+	margin-right: -1px;
+}
+
+.blog-archive-headings-wrapper {
+	width: 198px;
+	position: absolute;
+	left: 8px;
+	text-align: center;
+}
+
+.blog-archive-entries-wrapper {
+	margin-right: 102px;
+	width: 440px;
+	margin-left: 206px;
+}

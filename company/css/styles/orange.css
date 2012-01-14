@@ -1,0 +1,43 @@
+.blog-entry-title a:hover, a:link, a:visited {
+	color: #ff500c;
+}
+
+#viewingButton #left {
+	background: no-repeat url(../../images/view_but_left.png);
+}
+
+#viewingButton #text {
+	background: repeat-x url(../../images/view_but_middle.png);
+	text-shadow: 2px 2px 2px #b74e18;
+}
+
+#viewingButton #right {
+	background: no-repeat url(../../images/view_but_right.png);
+}
+
+#pageHeader {
+	border-bottom: 2px solid #ea301e;
+	background: url(../../images/header_bg.png) repeat;
+}
+
+#pageHeader #highlight {
+	background: url(../../images/header_highlight.png) repeat-x;
+}
+
+#pageHeader h1 {
+	text-shadow: 2px 2px 2px #b74e18;
+}
+
+#pageHeader h2 {
+	color: #ffb79e;
+	text-shadow: 2px 2px 2px #b74e18;
+}
+
+#sidebarContainer .sideHeader {
+	text-shadow: 2px 2px 2px #b74e18;
+	background: no-repeat url(../../images/side_head_bg.png);
+}
+
+.blog-entry-category, .blog-entry-permalink {
+	color: #ff4a11;
+}
